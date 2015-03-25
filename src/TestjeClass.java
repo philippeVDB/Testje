@@ -8,7 +8,8 @@ public class TestjeClass {
 		Scanner lezer = new Scanner(System.in);
 		int getal;
 		getal = lezer.nextInt();
-		System.out.printf("het product van %d en 10 = %d", getal, getal*10);
+		lezer.close();
+		System.out.printf("het product van %d en 10 = %d", getal, getal*10);	
 
 	}
 
