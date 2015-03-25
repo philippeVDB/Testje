@@ -9,7 +9,8 @@ public class TestjeClass {
 		int getal;
 		getal = lezer.nextInt();
 		lezer.close();
-		System.out.printf("het product van %d en 10 = %d", getal, getal*10);	
+		System.out.printf("het product van %d en 10 = %d", getal, getal*10);
+		System.out.println("einde");
 
 	}
 
